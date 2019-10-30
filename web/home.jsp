@@ -3,12 +3,32 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>Home</title>
+        <style>
+            body img {
+                position: absolute;
+                height: 615px;
+                width: 1349px;
+            }
+
+            body div{
+                position: absolute;
+                left: 100px;
+                top: 100px;
+            }
+
+            body tr {
+                background-color: white;
+            }
+
+        </style>
     </head>
     <body>       
+        <img src="465254.jpg" alt="Gohan">
+        <div>
         <form method="post" action="./login">   <!-- For Servlet Login Validation -->
             <input type="hidden" name=methodType" value="login"/>
             <center>
-                <h2 style="color: green">Login Page</h2>
+                <h2 style="color: black">Login Page</br>Wilson</h2>
             </center>
                     
             <table border="1" align="center">
@@ -44,5 +64,6 @@
             
         <br>
         <center>New User?? Registered here: <a href="registration.jsp">Register Me</a></center>
+        </div>
     </body>
 </html>
